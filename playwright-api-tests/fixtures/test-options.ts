@@ -1,7 +1,7 @@
 import { test as base, mergeTests, request } from '@playwright/test';
-import { test as apiRuquestFixture } from './api-request-fixtures';
+import { test as apiRequestFixture } from './api-request-fixtures';
 
-const test = mergeTests(apiRuquestFixture);
+const test = mergeTests(apiRequestFixture);
 const expect = base.expect;
 
 export { test, expect, request };
