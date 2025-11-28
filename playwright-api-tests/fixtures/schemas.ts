@@ -12,8 +12,8 @@ export const LoginTokenSchema = z.object({
     expires_string: z.string(),
 });
 
-export const JsonErrorSchema = z.union([
-    Error400Schema,
-    Error401Schema,
-    Error500Schema,
-]);
+export const JsonErrorSchema = {
+    400: Error400Schema,
+    401: Error401Schema,
+    500: Error500Schema,
+};
