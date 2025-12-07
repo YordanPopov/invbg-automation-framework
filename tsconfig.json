@@ -6,6 +6,9 @@
         "sourceMap": true,
         "noImplicitAny": false,
         "esModuleInterop": true,
-        "noImplicitOverride": true
+        "noImplicitOverride": true,
+        "paths": {
+            "@lib/*": ["./lib/*"]
+        }
     }
 }
