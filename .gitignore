@@ -143,4 +143,7 @@ vite.config.ts.timestamp-*
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/playwright/.auth/
+/playwright.auth/
+
+# Authentication user file
+userSession.json
